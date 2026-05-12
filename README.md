@@ -63,7 +63,7 @@ O projeto utiliza uma interface simples, colorida e intuitiva, pensada para cria
 
 | Nome | GitHub |
 |------|--------|
-| João Gabriel Coelho | [@joaogabrielc1]([(https://github.com/joaogabrielc1]) |
+| João Gabriel Coelho | [(https://github.com/joaogabrielc1]) |
 | Luis Guilherme Silva | [@usuario2](https://github.com/usuario2) |
 | Henrique Albarnas | [@usuario3](https://github.com/usuario3) |
 | Gabriel Pozzan Da Silva | [@usuario4](https://github.com/usuario4) |
