@@ -17,7 +17,7 @@
 
 O **BRUSQUIZ** é um quiz educativo interativo desenvolvido com o objetivo de ensinar crianças sobre a história, cultura, pontos turísticos e curiosidades da cidade de Brusque - SC.
 
-O projeto utiliza uma interface simples, colorida e intuitiva, pensada para crianças pequenas, com perguntas, imagens, pontuação, feedback visual e áudio das perguntas pelo navegador.
+O projeto utiliza uma interface simples, colorida e intuitiva, pensada para crianças de 4 a 5 anos, com perguntas, imagens, pontuação, feedback visual e áudio das perguntas pelo navegador.
 
 ---
 
