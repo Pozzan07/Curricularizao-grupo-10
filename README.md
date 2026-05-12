@@ -1,4 +1,4 @@
-# 🎓 [NOME DO JOGO]
+# 🎓 BRUSQUIZ.
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 # 📖 Sobre o Projeto
 
-O projeto **[NOME DO JOGO]** foi desenvolvido para a faculdade com o objetivo de ensinar crianças de forma divertida e interativa através de quizzes e desafios educativos sobre a cidade de Brusque.
+O projeto **BRUSQUIZ** foi desenvolvido para a prefeitura municipal de Brusque com o objetivo de ensinar crianças de forma divertida e interativa através de quizzes e desafios educativos sobre a cidade.
 
 O jogo busca incentivar o aprendizado infantil utilizando uma interface simples, colorida e intuitiva, tornando a experiência mais divertida para crianças.
 
@@ -37,28 +37,8 @@ O jogo busca incentivar o aprendizado infantil utilizando uma interface simples,
 - ✅ Pontuação
 - ✅ Feedback visual
 - ✅ Interface responsiva
-- ✅ Sons e animações
 - ✅ Perguntas aleatórias
-- ✅ Níveis de dificuldade *(opcional)*
-
----
-
-# ❓ Perguntas do Quiz
-
-## 🟢 Fácil
-- Qual é o nome da cidade?
-- Brusque fica em qual estado?
-- Qual é a cor da bandeira do Brasil?
-
-## 🟡 Médio
-- Pelo que Brusque é conhecida?
-- Qual rio passa pela cidade?
-- Qual é um ponto turístico famoso?
-
-## 🔴 Difícil
-- Em que ano Brusque foi fundada?
-- Qual é a origem do nome da cidade?
-- Quantos habitantes Brusque possui?
+- ✅ Níveis de dificuldade
 
 ---
 
@@ -76,11 +56,9 @@ O jogo busca incentivar o aprendizado infantil utilizando uma interface simples,
 # 📁 Estrutura do Projeto
 
 ```bash
-📦 projeto
- ┣ 📂 css
- ┃ ┗ 📜 style.css
- ┣ 📂 js
- ┃ ┗ 📜 script.js
+📦 brusquiz
  ┣ 📂 images
+ ┣ 📜 style.css
+ ┣ 📜 script.js
  ┣ 📜 index.html
- ┗ 📜 README.md
+ ┣ 📜 README.md
