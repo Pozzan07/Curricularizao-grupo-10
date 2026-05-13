@@ -74,19 +74,15 @@ O projeto utiliza uma interface simples, colorida e intuitiva, pensada para cria
 ## 📁 Estrutura do Projeto
 
 ```bash
-📦 brusquiz
+📦 New project
  ┣ 📂 images
- ┃ ┣ 📜 menu.png
- ┃ ┣ 📜 ponte.png
- ┃ ┣ 📜 zoo.png
- ┃ ┣ 📜 avião.png
- ┃ ┣ 📜 estatua.png
- ┃ ┣ 📜 textil.png
- ┃ ┗ 📜 capivara.png
+ ┣ 📂 js
+ ┃ ┣ 📜 imagens.js
+ ┃ ┣ 📜 perguntas.js
+ ┃ ┗ 📜 script.js
  ┣ 📜 index.html
- ┣ 📜 styles.css
- ┣ 📜 script.js
- ┗ 📜 README.md
+ ┗ 📜 styles.css
+
 ```
 
 ---
