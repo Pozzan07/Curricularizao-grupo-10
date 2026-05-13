@@ -66,8 +66,8 @@ O projeto utiliza uma interface simples, colorida e intuitiva, pensada para cria
 | João Gabriel Coelho | https://github.com/joaogabrielc1|
 | Luis Guilherme Silva | https://github.com/LuisGS07 |
 | Henrique Albarnas | https://github.com/usuario3 |
-| Gabriel Pozzan Da Silva | https://github.com/usuario4 |
-| Erika | https://github.com/usuario5 |
+| Gabriel Pozzan Da Silva | https://github.com/pozzan77 |
+| Erika Yasmin Pereira | https://github.com/Erika-srvy |
 
 ---
 
