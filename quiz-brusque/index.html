@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRUSQUE: UMA AVENTURA NA HISTORIA</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell" aria-live="polite">
+    <div class="bubble bubble-yellow bubble-1"></div>
+    <div class="bubble bubble-pink bubble-2"></div>
+    <div class="bubble bubble-yellow bubble-3"></div>
+    <div class="bubble bubble-pink bubble-4"></div>
+    <div class="bubble bubble-yellow bubble-5"></div>
+    <div class="bubble bubble-pink bubble-6"></div>
+
+    <section class="screen screen-home is-active" id="homeScreen">
+      <div class="hero-badge" aria-hidden="true">
+        <img src="images/menu.png" alt="BRUSQUE: UMA AVENTURA NA HISTORIA" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+        <span class="menu-image-placeholder">IMAGEM DO MENU</span>
+      </div>
+
+      <h1>BRUSQUE</h1>
+      <p class="subtitle">UMA AVENTURA NA HISTORIA!</p>
+
+      <form class="start-card" id="startForm">
+        <label>
+          <span>🌟 QUAL O SEU NOME? (OPCIONAL)</span>
+          <input id="playerName" type="text" autocomplete="name" maxlength="24" aria-label="QUAL O SEU NOME?">
+        </label>
+        <label>
+          <span>🏫 QUAL SUA ESCOLA? (OPCIONAL)</span>
+          <input id="playerSchool" type="text" maxlength="32"  aria-label="QUAL SUA ESCOLA?">
+        </label>
+        <label>
+          <span>🎂 QUANTOS ANOS VOCE TEM? (OPCIONAL)</span>
+          <input id="playerAge" type="number" min="0" max="99"  aria-label="QUANTOS ANOS VOCE TEM?">
+        </label>
+
+        <fieldset class="level-box" aria-label="ESCOLHA O NIVEL">
+          <legend>🎮 ESCOLHA O NIVEL</legend>
+          <div class="level-grid">
+            <label class="level-option">
+              <input type="radio" name="level" value="facil" checked>
+              <span>FÁCIL</span>
+            </label>
+            <label class="level-option">
+              <input type="radio" name="level" value="medio">
+              <span>MÉDIO</span>
+            </label>
+            <label class="level-option">
+              <input type="radio" name="level" value="dificil">
+              <span>DIFÍCIL</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <button class="primary-btn" type="submit">COMECE A AVENTURA!</button>
+      </form>
+    </section>
+
+    <section class="screen screen-question" id="questionScreen">
+      <header class="quiz-top">
+        <div>
+          <p id="questionCounter">PERGUNTA 1 DE 15</p>
+          <div class="progress-track" aria-label="PROGRESSO">
+            <div class="progress-fill" id="progressFill"></div>
+          </div>
+        </div>
+        <div class="quiz-actions">
+          <div class="score-pill" id="scorePill">⭐ 0</div>
+        </div>
+      </header>
+
+      <article class="question-card">
+        <div class="mascot-row">
+          <div class="mini-mascot" id="miniMascot" aria-hidden="true">😊</div>
+          <button class="sound-btn" type="button" id="speakButton" aria-label="OUVIR PERGUNTA">🔊</button>
+        </div>
+        <h2 id="questionText">QUAL FESTA DIVERTIDA ACONTECE EM BRUSQUE?</h2>
+        <div class="hint-bar" id="hintText">SELECIONE A RESPOSTA CORRETA</div>
+        <div class="answers-grid" id="answersGrid"></div>
+        <p class="feedback" id="feedbackText" role="status"></p>
+        <br>
+        <button class="home-quiz-btn" type="button" id="quizHomeButton">🏠 VOLTAR AO MENU</button>
+      </article>
+    </section>
+
+    <section class="screen screen-result" id="resultScreen">
+      <article class="result-card">
+        <div class="result-face" id="resultFace">😊</div>
+        <h2 id="resultTitle">CONTINUE APRENDENDO SOBRE BRUSQUE!</h2>
+        <div class="final-score">
+          <strong id="finalScore">0/10</strong>
+          <span id="finalPercent">0%</span>
+        </div>
+        <div class="student-card">
+          <p id="studentMessage">PARABENS!</p>
+          <p><strong>ESCOLA:</strong> <span id="schoolResult">-</span></p>
+          <p><strong>IDADE:</strong> <span id="ageResult">-</span></p>
+          <p><strong>NIVEL:</strong> <span id="levelResult">FACIL</span></p>
+        </div>
+        <div class="badge-row" id="badgeRow" aria-label="CONQUISTAS"></div>
+        <button class="secondary-btn" type="button" id="playAgainButton">🔁 FAZER O QUIZ NOVAMENTE</button>
+        <button class="tertiary-btn" type="button" id="homeButton">🏠 VOLTAR AO INICIO</button>
+      </article>
+    </section>
+  </main>
+
+  <script src="js/imagens.js"></script>
+  <script src="js/perguntas.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
