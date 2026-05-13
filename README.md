@@ -74,7 +74,7 @@ O projeto utiliza uma interface simples, colorida e intuitiva, pensada para cria
 ## 📁 Estrutura do Projeto
 
 ```bash
-📦 New project
+📦 Brusquiz
  ┣ 📂 images
  ┣ 📂 js
  ┃ ┣ 📜 imagens.js
